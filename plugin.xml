@@ -13,7 +13,7 @@
     <platform name="android">
         <config-file target="config.xml" parent="/*">
             <feature name="Torch">
-                <param name="android-package" value="org.apache.cordova.plugin.torch"/>
+                <param name="android-package" value="org.apache.cordova.plugin.Torch"/>
                 <param name="onload" value="true" />
             </feature>
         </config-file>
