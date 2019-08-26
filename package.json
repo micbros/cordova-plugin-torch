@@ -1,0 +1,27 @@
+{
+  "name": "cordova-plugin-torch",
+  "version": "0.1.0",
+  "description": "Cordova torch Plugin",
+  "cordova": {
+    "id": "cordova-plugin-torch",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micbros/cordova-plugin-torch.git"
+  },
+  "keywords": [
+    "cordova",
+    "torch",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "broeker",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/micbros/cordova-plugin-torch/issues"
+  },
+  "homepage": "https://github.com/micbros/cordova-plugin-torch#readme"
+}
