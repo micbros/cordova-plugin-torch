@@ -34,14 +34,19 @@ public class Torch extends CordovaPlugin{
 
     private void toggleTorch(String message, CallbackContext callbackContext) throws CameraAccessException{
 
-      CameraManager manager = (CameraManager) cordova.getActivity().getSystemService(Context.CAMERA_SERVICE);
+        CameraManager manager = (CameraManager) cordova.getActivity().getSystemService(Context.CAMERA_SERVICE);
+        if (CaptureRequest.FLASH_MODE.equals(CaptureRequest.FLASH_MODE_TORCH)){
+            on=true;
+        }
 
-        if (CaptureRequest.FLASH_MODE.equals(CaptureRequest.FLASH_MODE_TORCH)) {
+        if (on == true) {
             manager.setTorchMode("0", false);
             callbackContext.success("torch off");
+            on=false;
         } else {
             manager.setTorchMode("0", true);
             callbackContext.success("torch on");
+            on=true;
         }
     }
 }
