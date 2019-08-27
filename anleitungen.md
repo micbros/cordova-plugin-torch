@@ -4,7 +4,7 @@
     2. [plugin.xml erstellen](#plugin.xml erstellen)
     3. [JavaScript erstellen](#JavaScript erstellen)
     4. [Java-Klasse erzeugen](#Java-Klasse erzeugen)
-    5. [Plugin bei github hochladen](#Pluginbeigithubhochladen)
+    5. [Plugin bei github hochladen](#Plugin bei github hochladen)
     6. [Plugin der Cordova-App hinzufügen](#Plugin der Cordova-App hinzufügen)
     
 # Cordova Entwicklung - Plugin
@@ -118,7 +118,7 @@ public class Licht extends CordovaPlugin{
 }
 
 ```
-<a id="Pluginbeigithubhochladen"><a/>
+<a id="Plugin bei github hochladen"><a/>
 ### 5) Plugin bei github hochladen
 Am einfachsten lassen sich plugins in eine Cordova-App installieren wenn diese als repository auf 
 GitHub hochgeladen werden.
